@@ -1,5 +1,7 @@
 Punctuality
 =================================
+Deployment: https://punctuality.surge.sh
+
 
 This task is a challenge for front end engineers and developers.
 
@@ -11,13 +13,6 @@ This is a feature that already exists in Tanda. Managers love it because it make
 
 We are interested in your ability to build the features in this gif. You can copy the design exactly, or you can make any changes you like to how it looks.
 
-## Setting up
-
-For this challenge, you'll need to install the [Ruby](https://www.ruby-lang.org/en/) programming language. But you won't need to write any Ruby (unless you want to) - you'll primarily be writing HTML, CSS, and Javascript.
-
-The file `punctuality.rb` has instructions on how to get the server running. Note that we don't expect you to have used [Ruby](https://www.ruby-lang.org/en/) before today. For this task you'll just need to install it and run a simple program, not write any new code in it.
-
-If you get stuck getting the server running, try Googling the error message, but feel free to email us if you hit a roadblock.
 
 ## The challenge
 
