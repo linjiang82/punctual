@@ -33,8 +33,8 @@ class Datepicker extends Component {
     document.querySelector('.profile').style.visibility='hidden';
   }
   render(){
-    this.props.dispatch({type:'readRoster', payload:axios.get(`/rosters/${this.props.from}/${this.props.to}`)});
-    this.props.dispatch({type:'readShift',payload:axios.get(`/shifts/${this.props.from}/${this.props.to}`)})
+      this.props.dispatch({type:'readRoster', payload:axios.get(`https://punctual-server.herokuapp.com/rosters/${this.props.from}/${this.props.to}`)});
+    this.props.dispatch({type:'readShift',payload:axios.get(`https://punctual-server.herokuapp.com/shifts/${this.props.from}/${this.props.to}`)})
     return(
     <div className='container'>
       <div className='user' onMouseEnter={this.showProfile} onMouseLeave={this.hideProfile}>
