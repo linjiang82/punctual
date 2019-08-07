@@ -1,1 +1,1 @@
-web: bundle exec puma -C punctuality.rb
+web: bundle exec puma -C config.ru
