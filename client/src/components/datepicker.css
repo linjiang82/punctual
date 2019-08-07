@@ -1,0 +1,33 @@
+.container{
+  display:flex;
+  justify-content: space-between;
+}
+.user{
+  margin:10px;
+  padding:5px;
+  position: relative;
+  cursor: pointer;
+}
+.datepicker{
+  margin:10px;
+}
+.avatar{
+  width:40px;
+  height:40px;
+  border:1px solid rgb(219, 211, 211);
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.user span{
+  vertical-align: 15px;
+}
+.profile{
+  transition:visibility 1s,opacity 1s;
+  border:1px solid rgb(172, 155, 155);
+  position: absolute;
+  left:80px;
+  top:40px;
+  width:200px;
+  visibility: hidden;
+  opacity: 0;
+}

@@ -1,0 +1,6 @@
+.pContainer{
+  display:flex;
+  background-color: aliceblue;
+  justify-content: space-between;
+  padding-bottom:10px;
+}

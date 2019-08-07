@@ -1,0 +1,37 @@
+.dContainer{
+  background-color: white;  
+}
+.red{
+  background-color:red;
+  border: 3px solid red;
+  border-radius:5px;
+  color:white;
+}
+.notOnTime{
+  position:relative;
+}
+.showTime{
+  /* display:none; */
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 1s, opacity 1s;
+  position: absolute;
+  left:0px;
+  top:18px;
+  z-index: 99;
+}
+.actualTime{
+  border-radius:5px;
+  color:white;
+  background-color: darkolivegreen;
+}
+.triangle{
+  position:relative;
+  left:50%;
+  transform:translate(-50%); 
+  width:0px;
+  height:0px;
+  border-left:10px solid white;
+  border-right:10px solid white;
+  border-bottom:10px solid darkolivegreen;
+}
